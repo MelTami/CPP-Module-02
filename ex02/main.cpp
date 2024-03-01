@@ -6,11 +6,11 @@
 /*   By: mvavasso <mvavasso@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/24 19:01:34 by mvavasso          #+#    #+#             */
-/*   Updated: 2024/02/24 19:02:08 by mvavasso         ###   ########.fr       */
+/*   Updated: 2024/03/01 14:37:49 by mvavasso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
+#include "Fixed.hpp"
 
 int main( void ) {
     Fixed a;
