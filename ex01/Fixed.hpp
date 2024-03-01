@@ -6,7 +6,7 @@
 /*   By: mvavasso <mvavasso@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/24 19:00:37 by mvavasso          #+#    #+#             */
-/*   Updated: 2024/02/24 22:05:20 by mvavasso         ###   ########.fr       */
+/*   Updated: 2024/03/01 15:08:08 by mvavasso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,7 @@ public:
     float               toFloat( void ) const;
     int                 toInt( void ) const;
 };
+
+std::ostream & operator<<( std::ostream &output, Fixed const &i );
 
 #endif
